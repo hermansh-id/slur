@@ -6,7 +6,7 @@ export default function ActorNotFound() {
     <div className="container py-12 flex flex-col items-center justify-center text-center">
       <h1 className="text-4xl font-bold mb-4">Actor Not Found</h1>
       <p className="text-xl text-muted-foreground mb-8">
-        We couldn't find the actor you're looking for.
+        We couldn&apos;t find the actor you&apos;re looking for.
       </p>
       <div className="flex gap-4">
         <Button asChild>

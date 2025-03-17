@@ -10,7 +10,7 @@ export default function NotFound() {
           <AlertTriangle className="h-16 w-16 text-muted-foreground" />
           <h1 className="text-3xl font-bold">Case Not Found</h1>
           <p className="text-muted-foreground">
-            Sorry, we couldn't find the corruption case you're looking for. It may have been removed or the URL might be
+            Sorry, we couldn&apos;t find the corruption case you&apos;re looking for. It may have been removed or the URL might be
             incorrect.
           </p>
           <Button asChild>

@@ -43,7 +43,7 @@ export function EducationalResources() {
                     <LinkIcon className="h-3 w-3" />
                     <span>Corruption Perception Index</span>
                   </Link>
-                  <p className="text-xs text-muted-foreground">Indonesia's ranking in global corruption indices</p>
+                  <p className="text-xs text-muted-foreground">Indonesia&apos;s ranking in global corruption indices</p>
                 </div>
               </div>
             </AccordionContent>
@@ -68,7 +68,7 @@ export function EducationalResources() {
                 <div>
                   <Link href="#" className="text-sm font-medium hover:underline flex items-center gap-1">
                     <LinkIcon className="h-3 w-3" />
-                    <span>Citizen's Guide to Reporting Corruption</span>
+                    <span>Citizen&apos;s Guide to Reporting Corruption</span>
                   </Link>
                   <p className="text-xs text-muted-foreground">Step-by-step tutorial (7 min)</p>
                 </div>

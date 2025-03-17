@@ -6,7 +6,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { actors, getActorById, getCasesForActor, getConnectedActors } from "@/data/actors"
 
-export const generateMetadata = ({ params }: { params: { id: string } }): Metadata => {
+export async function generateMetadata({ params }: { params: { id: string } }): Promise<Metadata> {
   const actor = getActorById(params.id)
   
   if (!actor) {
