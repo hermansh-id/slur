@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "name": "workers-site",
+  "version": "1.0.0",
+  "description": "Worker for Cloudflare Pages",
+  "main": "index.js",
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@cloudflare/kv-asset-handler": "^0.3.0"
+  }
+} 
